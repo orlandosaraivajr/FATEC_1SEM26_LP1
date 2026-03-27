@@ -27,14 +27,12 @@ Criar uma função chamada "maior" que recebe
 dois números e mostra qual o maior
 '''
 def maior(numero1, numero2):
-    maior_numero = ''
     if numero1 > numero2:
-        maior_numero = numero1
-    if numero2 > numero1:
-        maior_numero = numero2
+        print(numero1)
+    elif numero2 > numero1:
+        print(numero2)
     else:
         print("Números iguais")
-    print(maior_numero)
 
 maior(10, 4)
 maior(3, 6)
