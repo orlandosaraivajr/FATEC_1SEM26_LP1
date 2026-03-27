@@ -20,7 +20,27 @@ c = soma2(10, 5)
 print(c)
 c = soma2(2, 5)
 print(c)
+'''
+Atividade 2:
+Criar uma função chamada "maior2" que recebe 
+dois números e retorna qual o maior
+'''
+def maior2(numero1, numero2):
+    if numero1 > numero2:
+        return numero1
+    if numero2 > numero1:
+        return numero2
+    else:
+        return 'Números Iguais'
 
+print("Testando função maior2 ")
+valor = maior2(10, 2)
+print(valor)
+valor = maior2(10, 20)
+print(valor)
+valor = maior2(20, 20)
+print(valor)
+print(30 * "*")
 '''
 Atividade 1:
 Criar uma função chamada "maior" que recebe 
@@ -38,8 +58,4 @@ maior(10, 4)
 maior(3, 6)
 maior(4, 4)
 
-'''
-Atividade 2:
-Criar uma função chamada "maior2" que recebe 
-dois números e retorna qual o maior
-'''
+
