@@ -20,3 +20,13 @@ c = soma2(10, 5)
 print(c)
 c = soma2(2, 5)
 print(c)
+
+'''
+Atividade 1:
+Criar uma função chamada "maior" que recebe dois números e mostra qual o maior
+'''
+
+'''
+Atividade 2:
+Criar uma função chamada "maior2" que recebe dois números e retorna qual o maior
+'''
