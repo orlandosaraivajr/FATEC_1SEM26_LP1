@@ -53,9 +53,9 @@ def maior(numero1, numero2):
         print(numero2)
     else:
         print("Números iguais")
-
+print("Testando função maior ")
 maior(10, 4)
 maior(3, 6)
 maior(4, 4)
-
+print(30 * "*")
 
