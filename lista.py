@@ -4,7 +4,7 @@ Problema 1 que fizemos juntos
 notas = [0,0,0,0,0]
 soma = 0
 x = 0
-while x < 5:
+while x < len(notas):
     notas[x] = float(input("Digite uma nota: "))
     soma = soma + notas[x]
     x = x + 1
